@@ -11,7 +11,7 @@ background-repeat:no-repeat;
 background-position: center;
 margin: 0 auto;
 background-size: contain;
-background-image: url("/images/game-of-life/game-of-life.gif")
+background-image: url("/images/game-of-life/game-of-life.gif");
 `
 
 export const Photo = styled.div`
@@ -24,7 +24,7 @@ background-position: center;
 background-size: contain;
 background-repeat:no-repeat;
 float:left;
-background-image: url("/images/myPhoto.png")
+background-image: url("/images/myPhoto.png");
 `
 export const Header4Dark = styled.h4`
 margin: 0 auto;
@@ -52,7 +52,7 @@ export const Text = styled.p`
 margin: 0 auto;
 font-size:25px;
 width:95%;
-font-family:"Raleway"
+font-family:"Raleway", sans-serif;
 `
 export const Content = styled.div`
 margin: 45px auto;
@@ -68,7 +68,7 @@ export const Remark = styled.h5`
 margin: 0 auto;
 font-size:15px;
 width:90%;
-font-family:"Raleway"
+font-family:"Raleway", sans-serif;
 font-style:underline;
 `
 export const Wrapper = styled.div`
