@@ -18,7 +18,6 @@ const Footer = () =>{
 
     return(
         <Container>
-            <h1>Vivid Vibes</h1>
             <h4>Maciej Stojak</h4>
             <h4>e-mail: maciej.stojak.work@gmail.com</h4>
             <h4>tel. 504781123</h4>
