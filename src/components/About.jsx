@@ -6,9 +6,9 @@ const About = () => {
     <Content>
       <Header4Dark>About me </Header4Dark>
       <HrDark />
-
+      <Photo></Photo>
       <Text>
-        <Photo></Photo>Hi I'm Maciej and I'm here to deliver you custom tailored
+        Hi I'm Maciej and I'm here to deliver you custom tailored
         web applications. My scope of interest are frameworks such as React with
         Redux and some well-known libraries such as styled-components,
         react-router-dom. Another technology I'm eager to explore is Node.js and

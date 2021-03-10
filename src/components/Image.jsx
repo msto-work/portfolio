@@ -4,6 +4,8 @@ import mountain1 from "../assets/css/mountain1.jpg";
 import mountain2 from "../assets/css/mountain2.jpg";
 import forest from "../assets/css/forest.jpg";
 import tree from "../assets/css/tree.jpg";
+import { Sentry } from 'react-activity';
+import 'react-activity/lib/Sentry/Sentry.css';
 
 const Image = () =>{
     
@@ -25,16 +27,7 @@ background-size: cover;
   max-width: 100%;   
 animation: ${()=>changeImg} 20s infinite;
 `
-const FadeContainer = styled.div`
-position: absolute;
-z-index:0.7;
-width:80%;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-opacity:0.5;
-background-color: white;
-`
+
 const Logo = styled.div`
 position: absolute;
 text-align: center;
@@ -47,7 +40,6 @@ left: 50%;
 transform: translate(-50%, -50%);
 background-color: rgba(0,0,0,0.5);
 padding:15px;
-
 `
 const Header4Light = styled.h4`
 font-family: "Spartan", sans-serif; 
@@ -60,7 +52,6 @@ const HrLight = styled.hr`
 `
 
     return(
-        
       <ImageFade >
        
        <Logo >Maciej Stojak<br/> 
@@ -71,6 +62,7 @@ const HrLight = styled.hr`
          </Logo>
        <br/>
      </ImageFade>
+
     )
 }
 export default Image;

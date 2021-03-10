@@ -1,8 +1,11 @@
 import styled from "styled-components";
 
 export const Image = styled.img`
-height:537px;
-width:800px;
+
+width:100%;
+height: 100vh;
+max-height: 100%;
+max-width: 100%;   
 display:block;
 background-repeat:no-repeat;
 background-position: center;

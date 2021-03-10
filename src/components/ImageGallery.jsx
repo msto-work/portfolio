@@ -28,8 +28,10 @@ const ImageGallery = (props) =>{
     background-position: center;
     background-size: contain;
     background-repeat:no-repeat;
-    width: 800px;
-    height: 437px;
+    width: 100%;
+    height: 700px;
+    max-height: 100%;
+    max-width: 100%;   
     animation: ${()=>fadeIn} 20s 2s infinite;
     `
 
