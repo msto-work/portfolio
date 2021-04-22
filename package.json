@@ -14,15 +14,16 @@
     "styled-components": "^5.2.1",
     "web-vitals": "^0.2.4"
   },
+  "homepage": "http://maciejstojak.pl",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-"proxy":"http://localhost:54132"
-,
- "eslintConfig": {
+  "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
