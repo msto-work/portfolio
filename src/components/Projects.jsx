@@ -3,7 +3,7 @@ import {Content, Header4Dark, HrDark, Text, Header5Dark, A, Wrapper, Remark, Ima
 import ImageGallery from "./ImageGallery";
 
 const Projects = () =>{
-    const omniImages = ["omni-edu/omni-edu-news2", "omni-edu/omni-edu-lecture3", "omni-edu/omni-edu-lecture2", "omni-edu/omni-edu-news"];
+   
     const adsBoardImages = ["ads-board/hot-offer", "ads-board/edit-offer", "ads-board/submit-form", "ads-board/search"]
     return(
         <>
@@ -12,20 +12,7 @@ const Projects = () =>{
           <HrDark/>
             <Text>Recently appended projects were mostly based on React and Redux frameworks with hooks approach. </Text>
           <br/>
-          <Header5Dark><A target="_blank" href="https://omni-edu.pl">OMNI-EDU.PL</A></Header5Dark>
-          <Wrapper>
-              <Text>First big project I've made was app <A target="_blank" href="https://omni-edu.pl">omni-edu.pl</A> 
-              <br/> 
-              </Text>
-              <Text>
-              The purpose of this project was to communicate with participants of nursing specialization and share recordings of lectures from ZOOM app. 
-              <br/>
-              Basic functionality was to upload and stream videos by means of Node.js server and React UI representation. 
-              App also utilizes basic capibilities of MongoDb database.</Text>
-              <Remark>and there are more features yet to come...</Remark>
-          </Wrapper>
-        
-          <ImageGallery images={omniImages}></ImageGallery>
+          
         </Content>
         <Content>
         <Header4Dark>Side projects</Header4Dark>
